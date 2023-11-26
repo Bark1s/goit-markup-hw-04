@@ -169,6 +169,8 @@ button {
 
 .main-section {
   max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   max-height: 100%;
   background-color: #2e2f42;
   background-image: linear-gradient(
