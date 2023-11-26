@@ -149,6 +149,14 @@ button {
 
 .main-section {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/bg-hero.jpg);
+  max-width: 100%;
+  max-width: 100%;
+  background-size: cover;
 }
 
 .section {
@@ -220,6 +228,14 @@ button {
   letter-spacing: 0.02em;
 }
 
+.benefits-icon-box {
+  padding: 24px 100px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+
 /* team */
 
 .team-section {
@@ -248,6 +264,9 @@ button {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .teammate-name-position {
@@ -262,7 +281,6 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 
 .team-list-position {
@@ -270,6 +288,23 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.team-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 24px;
+  margin-top: 8px;
+}
+
+.team-socials-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  padding: 12px;
 }
 
 /* portfolio */
@@ -309,6 +344,11 @@ button {
 
 /* footer */
 
+.footer-container {
+  display: flex;
+  column-gap: 120px;
+}
+
 .page-bottom {
   background-color: #2e2f42;
   padding-top: 100px;
@@ -337,4 +377,30 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
+}
+
+.footer-socials-header {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+  margin-top: 16px;
+}
+
+.footer-socials-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  padding: 8px;
 }
